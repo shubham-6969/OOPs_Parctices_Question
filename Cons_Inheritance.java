@@ -37,7 +37,7 @@ class tata_harrier extends Vehicles{
         this.variant = var;
     }
     public String isIsautomatic() {
-        return isautomatic? " yes" : "No";      /* if-esle statement but we use ternary operator to shorthand 
+        return isautomatic? " yes" : "No";      /* we can use if-esle statement but we use ternary operator to shorthand 
                                                         the code */ 
     }
     public void setIsautomatic(boolean isauto) {
